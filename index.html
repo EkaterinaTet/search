@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="search">
+      <button type="button" class="button__search">
+        <img class="search-img" src="img/search.svg" alt="search" />
+        <img class="search-img" src="img/search2.svg" alt="search" />
+      </button>
+      <div class="search__active" hidden>
+        <input
+          class="input__search"
+          maxlength="20"
+          type="text"
+          placeholder="Поиск..."
+        />
+        <div class="input__counter">Осталось <span></span> символов</div>
+      </div>
+    </nav>
+    <script src="main.js"></script>
+  </body>
+</html>
